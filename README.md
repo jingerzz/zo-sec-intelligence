@@ -20,7 +20,7 @@ Natural-language SEC filing intelligence — fetch, index, search, and analyze S
 ### Install via Zo Chat
 
 ```
-install the sec-edgar skill from https://github.com/clarion-systems/zo-sec-intelligence
+install the sec-edgar skill from https://github.com/jingerzz/zo-sec-intelligence
 ```
 
 Zo will prompt you for:
@@ -32,7 +32,7 @@ Zo will prompt you for:
 ```bash
 # Clone to your Zo workspace
 cd /home/workspace
-git clone https://github.com/clarion-systems/zo-sec-intelligence Skills/sec-edgar
+git clone https://github.com/jingerzz/zo-sec-intelligence Skills/sec-edgar
 
 # Run installer
 python3 Skills/sec-edgar/scripts/install.py --sec-ua "Your Name your@email.com" --tickers AAPL,MSFT
